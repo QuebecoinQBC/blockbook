@@ -42,6 +42,7 @@ import (
 	"github.com/trezor/blockbook/bchain/coins/pivx"
 	"github.com/trezor/blockbook/bchain/coins/polis"
 	"github.com/trezor/blockbook/bchain/coins/qtum"
+	"github.com/QuebecoinQBC/blockbook/bchain/coins/quebecoin"
 	"github.com/trezor/blockbook/bchain/coins/ravencoin"
 	"github.com/trezor/blockbook/bchain/coins/ritocoin"
 	"github.com/trezor/blockbook/bchain/coins/snowgem"
@@ -103,6 +104,7 @@ func init() {
 	BlockChainFactories["Flo"] = flo.NewFloRPC
 	BlockChainFactories["Bellcoin"] = bellcoin.NewBellcoinRPC
 	BlockChainFactories["Qtum"] = qtum.NewQtumRPC
+	BlockChainFactories["Quebecoin"] = quebecoin.NewQuebecoinRPC
 	BlockChainFactories["Viacoin"] = viacoin.NewViacoinRPC
 	BlockChainFactories["Qtum Testnet"] = qtum.NewQtumRPC
 	BlockChainFactories["NULS"] = nuls.NewNulsRPC
