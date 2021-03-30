@@ -42,7 +42,7 @@ import (
 	"github.com/trezor/blockbook/bchain/coins/pivx"
 	"github.com/trezor/blockbook/bchain/coins/polis"
 	"github.com/trezor/blockbook/bchain/coins/qtum"
-	"github.com/QuebecoinQBC/blockbook/bchain/coins/quebecoin"
+	"github.com/trezor/blockbook/bchain/coins/quebecoin"
 	"github.com/trezor/blockbook/bchain/coins/ravencoin"
 	"github.com/trezor/blockbook/bchain/coins/ritocoin"
 	"github.com/trezor/blockbook/bchain/coins/snowgem"
