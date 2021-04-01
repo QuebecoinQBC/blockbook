@@ -19,13 +19,13 @@
     "message_queue_binding_template": "tcp://127.0.0.1:{{.Ports.BackendMessageQueue}}"
   },
   "backend": {
-    "package_name": "backend-qbc",
+    "package_name": "backend-quebecoin",
     "package_revision": "satoshilabs-1",
-    "system_user": "qbc",
+    "system_user": "quebecoin",
     "version": "0.16.4.0",
     "binary_url": "https://github.com/QuebecoinQBC/quebecoin/releases/download/latest-wallets/quebecoin-ub18.04.tar.gz",
     "verification_type": "sha256",
-    "verification_source": "cd751ac9b4635f0baecd4198aba06a69942a639d456f3c91d824f8bcb8ca530c",
+    "verification_source": "476ffd59ea039762c4be1b3ea84486acd9574741cf7ae10279bbf09926233ced",
     "extract_command": "tar -C backend --strip 1 -xf",
     "exclude_files": [
       "bin/quebecoin-qt"
@@ -47,8 +47,8 @@
     }
   },
   "blockbook": {
-    "package_name": "blockbook-qbc",
-    "system_user": "blockbook-qbc",
+    "package_name": "blockbook-quebecoin",
+    "system_user": "blockbook-quebecoin",
     "internal_binding_template": ":{{.Ports.BlockbookInternal}}",
     "public_binding_template": ":{{.Ports.BlockbookPublic}}",
     "explorer_url": "",
