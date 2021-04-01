@@ -23,9 +23,9 @@
     "package_revision": "satoshilabs-1",
     "system_user": "qbc",
     "version": "0.16.4.0",
-    "binary_url": "https://github.com/wkibbler/blockbook/releases/download/v0.1/quebecoin.tar.gz",
+    "binary_url": "https://github.com/QuebecoinQBC/quebecoin/releases/download/latest-wallets/quebecoin-ub18.04.tar.gz",
     "verification_type": "sha256",
-    "verification_source": "7a10e79b8f36e7baafaec1cf658e852a46ecc29fd83a082fe41acd82281ec43a",
+    "verification_source": "cd751ac9b4635f0baecd4198aba06a69942a639d456f3c91d824f8bcb8ca530c",
     "extract_command": "tar -C backend --strip 1 -xf",
     "exclude_files": [
       "bin/quebecoin-qt"
