@@ -25,7 +25,7 @@
     "version": "0.16.4.0",
     "binary_url": "https://github.com/QuebecoinQBC/quebecoin/releases/download/latest-wallets/quebecoin-ub18.04.tar.gz",
     "verification_type": "sha256",
-    "verification_source": "476ffd59ea039762c4be1b3ea84486acd9574741cf7ae10279bbf09926233ced",
+    "verification_source": "872da36718f3c5c6347ab7b1c4d9d8fbd43bca48cc15f76fda90ea115b954b22",
     "extract_command": "tar -C backend --strip 1 -xf",
     "exclude_files": [
       "bin/quebecoin-qt"
